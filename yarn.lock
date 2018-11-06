@@ -84,6 +84,14 @@ cryptiles@4.x.x:
   dependencies:
     boom "7.x.x"
 
+hapi-auth-basic@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/hapi-auth-basic/-/hapi-auth-basic-5.0.0.tgz#0438b00225e4f7baccd7f29e04b4fc5037c012b0"
+  integrity sha1-BDiwAiXk97rM1/KeBLT8UDfAErA=
+  dependencies:
+    boom "7.x.x"
+    hoek "5.x.x"
+
 hapi@^17.6.4:
   version "17.6.4"
   resolved "https://registry.yarnpkg.com/hapi/-/hapi-17.6.4.tgz#5cec5c720e3daf40258618bc8d50bceb3c34d463"
@@ -115,6 +123,11 @@ heavy@6.x.x:
     boom "7.x.x"
     hoek "6.x.x"
     joi "14.x.x"
+
+hoek@5.x.x:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/hoek/-/hoek-5.0.4.tgz#0f7fa270a1cafeb364a4b2ddfaa33f864e4157da"
+  integrity sha512-Alr4ZQgoMlnere5FZJsIyfIjORBqZll5POhDsF4q64dPuJR6rNxXdDxtHSQq8OXRurhmx+PWYEE8bXRROY8h0w==
 
 hoek@6.x.x:
   version "6.0.1"
